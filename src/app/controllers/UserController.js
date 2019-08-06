@@ -15,7 +15,7 @@ class UserController {
 
     if (!(await schema.isValid(req.body))) {
       return res.status(400).json({
-        error: 'Validation fails',
+        error: 'Validation fails.',
       });
     }
 
@@ -53,7 +53,7 @@ class UserController {
 
     if (!(await schema.isValid(req.body))) {
       return res.status(400).json({
-        error: 'Validation fails',
+        error: 'Validation fails.',
       });
     }
 
