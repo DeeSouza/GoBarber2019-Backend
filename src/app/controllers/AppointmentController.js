@@ -65,6 +65,16 @@ class AppointmentController {
       });
     }
 
+    /**
+     * Check if user logged is provider_id
+     */
+    if (req.userId === provider_id) {
+      return res.status(401).json({
+        status: false,
+        error: 'You can not create appointments to yourself.',
+      });
+    }
+
     // Get only hours and minutes and second equal zero - date appointment
     const hourStart = startOfHour(parseISO(date));
 
