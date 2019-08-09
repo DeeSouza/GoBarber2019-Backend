@@ -1,4 +1,4 @@
 export default {
-  url: 'mongodb://192.168.99.100:27017',
+  url: process.env.MONGO_URL,
   database: 'gobarber',
 };
