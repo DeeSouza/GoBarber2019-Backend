@@ -1,7 +1,8 @@
-<h1 align="center">GoBarber - Backend 👋</h1>
-<p>
-  <img src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
-</p>
+<h1 align="center">GOBARBER - BACKEND</h1>
+
+![reactbadge](https://img.shields.io/badge/11.14.0-NodeJS-green?style=flat-square&logo=node.js)
+![reactbadge](https://img.shields.io/badge/1.38.0-Visual%20Code-orange?style=flat-square&logo=visual-studio-code)
+![reactbadge](https://img.shields.io/badge/1.17.3-version-red?style=flat-square&logo=yarn)
 
 > Backend para aplicação GoBarber Web e GoBarber Mobile para agendamento de corte de cabelo e barba.
 
@@ -17,11 +18,17 @@ yarn
 yarn dev
 ```
 
+## Start Redis
+
+```sh
+yarn queue
+```
+
 ## Techs Usage
 
-1. Docker
-2. Redis
-3. NodeJS
+1. NodeJS
+2. Docker
+3. Redis
 4. Multer
 5. Express
 6. MongoDB
@@ -38,9 +45,8 @@ yarn dev
 4. Editor Config
 5. Prettier
 
+## Docker Commands
 
-## Author
-
-👤 **Diego Souza**
-
-* Github: [@deesouza](https://github.com/deesouza)
+MongoDB - docker run --name mongobarber -p 27017:27017 -d -t mongo
+Postgress - docker run --name gobarber -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres
+Redis - docker run --name redisbarber -p 6379:6379 -d -t redis:alpine
