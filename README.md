@@ -1,8 +1,8 @@
-<h1 align="center">GOBARBER - BACKEND</h1>
+# GOBARBER - BACKEND
 
-![reactbadge](https://img.shields.io/badge/11.14.0-NodeJS-green?style=flat-square&logo=node.js)
-![reactbadge](https://img.shields.io/badge/1.38.0-Visual%20Code-orange?style=flat-square&logo=visual-studio-code)
-![reactbadge](https://img.shields.io/badge/1.17.3-version-red?style=flat-square&logo=yarn)
+![1](https://img.shields.io/badge/11.14.0-NodeJS-green?style=flat-square&logo=node.js)
+![2](https://img.shields.io/badge/1.38.0-Visual%20Code-orange?style=flat-square&logo=visual-studio-code)
+![3](https://img.shields.io/badge/1.17.3-version-red?style=flat-square&logo=yarn)
 
 > Backend para aplicação GoBarber Web e GoBarber Mobile para agendamento de corte de cabelo e barba.
 
